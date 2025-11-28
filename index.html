@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Boxicons (icons) -->
+  <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <a href="#home" class="logo">Port<span>Folio</span></a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, I'm</h3>
+      <h1>Santhosh J R</h1>
+      <h3 class="home-role">
+        And I'm a <span class="typing-text"></span>
+      </h3>
+      <p>
+        A passionate Computer Science student skilled in Frontend, Java DSA, and Python libraries.
+      </p>
+
+      <div class="btn-box">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://github.com/Santhosh7jr" target="_blank">
+          <i class='bx bxl-github'></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/santhosh-j-r-1b736b290" target="_blank">
+          <i class='bx bxl-linkedin'></i>
+        </a>
+
+        <a href="https://leetcode.com/u/Santhosh_J_R/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
+               alt="LeetCode"
+               style="width: 23px; filter: brightness(0) invert(1);" />
+        </a>
+      </div>
+    </div>
+
+    <div class="home-img">
+      <div class="img-box">
+        <img src="images/myimage.jpeg" alt="Your Image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="section-title">
+      <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-content">
+      <div class="about-text">
+        <h3>Hi! I'm Santhosh J R</h3>
+        <p>
+          I am a Computer Science student skilled in Java, DSA, Python, and frontend development.  
+          I enjoy problem-solving, coding challenges, and building clean web interfaces.
+        </p>
+        <p>
+          Currently exploring more advanced CS topics and improving my coding and development skills.
+        </p>
+        <a href="images/mycv.pdf" class="btn" download>Download CV</a>
+      </div>
+
+      <div class="about-info">
+        <div class="info-item">
+          <span>Name:</span>
+          <p>Santhosh J R</p>
+        </div>
+        <div class="info-item">
+          <span>Role:</span>
+          <p>Student</p>
+        </div>
+        <div class="info-item">
+          <span>Email:</span>
+          <p>jrsanthosh89@gmail.com</p>
+        </div>
+        <div class="info-item">
+          <span>Location:</span>
+          <p>Hassan, India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="section-title">
+      <h2>My <span>Skills</span></h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <a href="https://github.com/Santhosh7jr/Web_Development"><div class="skill-card">
+        <h3>Frontend Development</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (ES6)</li>
+        </ul>
+      </div></a>
+
+      <a href="https://github.com/Santhosh7jr/CompleteDSA"><div class="skill-card">
+        <h3>Programming & DSA</h3>
+        <ul>
+          <li>Java (Core)</li>
+          <li>Data Structures & Algorithms</li>
+          <li>Problem Solving</li>
+        </ul>
+      </div></a>
+
+      <a href="https://github.com/Santhosh7jr/dataScience"><div class="skill-card">
+        <h3>Python & Libraries</h3>
+        <ul>
+          <li>Python</li>
+          <li>NumPy</li>
+          <li>Pandas</li>
+          <li>Matplotlib</li>
+        </ul>
+      </div></a>
+
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>VS Code</li>
+          <li>IntelliJ IDEA</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="section-title">
+      <h2>My <span>Projects</span></h2>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-tag">Web</div>
+        <h3>Portfolio Website</h3>
+        <p>Responsive portfolio website built using HTML, CSS, JS.</p>
+        <div class="project-links">
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">DSA</div>
+        <h3>Java DSA Programs</h3>
+        <p>Collection of important DSA problems solved in Java.</p>
+        <div class="project-links">
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-tag">Python</div>
+        <h3>Data Analysis Scripts</h3>
+        <p>Python projects using Pandas, NumPy, Matplotlib.</p>
+        <div class="project-links">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>Contact <span>Me</span></h2>
+    </div>
+
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <p>
+          Feel free to contact me for collaboration or opportunities!
+        </p>
+
+        <div class="contact-item">
+          <i class='bx bxs-envelope'></i>
+          <span>jrsanthosh89@gmail.com</span>
+        </div>
+
+        <div class="contact-item">
+          <i class='bx bxs-map'></i>
+          <span>Hassan, India</span>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <div class="field-group">
+          <input type="text" placeholder="Your Name" required />
+        </div>
+        <div class="field-group">
+          <input type="email" placeholder="Your Email" required />
+        </div>
+        <div class="field-group">
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Santhosh. All rights reserved.</p>
+  </footer>
+
+  <!-- Main JS -->
+  <script src="script.js"></script>
+</body>
+</html>
